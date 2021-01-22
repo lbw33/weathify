@@ -3,7 +3,7 @@ const storage = new Storage()
 //Gets stored location data
 const weatherLocation = storage.getLocationData()
 // Initialize the Weather Class
-const weather = new Weather(weatherLocation.city, weatherLocation.state);
+const weather = new Weather(weatherLocation.city, weatherLocation.country);
 // Initialize the UI
 const ui = new UI();
 
@@ -14,11 +14,11 @@ document.addEventListener('DOMContentLoaded', getWeather);
 // Change Location Event
 document.getElementById("w-change-btn").addEventListener('click', (e) => {
     const city = document.getElementById('city').value
-    const state = document.getElementById('state').value
+    const country = document.getElementById('country').value
 
-    weather.changeLocation(city, state)
+    weather.changeLocation(city, country)
 
-    storage.setLocationData(city, state)
+    storage.setLocationData(city, country)
 
     getWeather();
     $('#locModal').modal('hide');

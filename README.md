@@ -7,11 +7,11 @@
 =======================================================
 
  ### Project
- To design and build a single page, front end weather application that can allow a user to select the city and state (for US) or city and country code(RoW) and receive back information about the current weather conditions in that area.
+ To design and build a single page, front end weather application that can allow a user to select the city and country code and receive back information about the current weather conditions in that area.
 
  #### Information includes:
  * City name
- * State name
+ * Country name
  * Current weather
  * Current temperature(celcius)
  * Icon representing the current weather
@@ -35,8 +35,7 @@
 * Clean and minimal design to present data clearly to the user.
 * Stores information locally so that the current location will not reset upon browser refresh.
 * Able to select weather from anywhere in the world.
-  * City and State can be entered to retrieve US weather information.
-  * City and Country Code can be entered to receive weather data from other countries.
+  * City and Country Code can be entered to receive weather data.
 * Icon representing current weather will dynamically change depending on conditions at chosen location.
 
 =======================================================
