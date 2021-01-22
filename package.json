@@ -1,0 +1,19 @@
+{
+  "name": "weathify",
+  "version": "1.0.0",
+  "description": "Weathify - a weather information app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukewickens1989/weathify.git"
+  },
+  "author": "L Wickens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukewickens1989/weathify/issues"
+  },
+  "homepage": "https://github.com/lukewickens1989/weathify#readme"
+}

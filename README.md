@@ -2,8 +2,8 @@
 
 ![image](public/images/weathify_logo.png)
 
- ## A weather information app using OpenWeather API
-
+## A weather information app using OpenWeather API
+## Link: http://weathify.surge.sh/
 =======================================================
 
  ### Project
